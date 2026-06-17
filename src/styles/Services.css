@@ -1,0 +1,304 @@
+.services {
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ===== MAIN TITLE ===== */
+.services h1 {
+  font-size: 3rem;
+  color: #1a3a52;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.services > .container > p {
+  text-align: center;
+  color: #666;
+  font-size: 1.15rem;
+  margin-bottom: 4rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
+
+/* ===== SERVICES GRID ===== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+  margin-bottom: 6rem;
+  perspective: 1200px;
+}
+
+.service-card {
+  background: white;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  border: 1px solid #e8eef5;
+  border-left: 5px solid #00d4ff;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transform: translateZ(0) rotateX(0deg) rotateY(0deg);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(0, 212, 255, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  opacity: 1;
+}
+
+.service-card:hover {
+  transform: translateY(-10px) rotateX(2deg) rotateY(-1deg) translateZ(10px);
+  box-shadow: 0 22px 45px rgba(26, 58, 82, 0.11),
+              0 8px 16px rgba(0, 212, 255, 0.06);
+  border-left-color: #0099cc;
+}
+
+.service-icon {
+  font-size: 3.2rem;
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 85px;
+  background: linear-gradient(135deg, #00d4ff12 0%, #0099cc12 100%);
+  border-radius: 14px;
+  transition: all 0.4s ease;
+}
+
+.service-card:hover .service-icon {
+  background: linear-gradient(135deg, #00d4ff20 0%, #0099cc20 100%);
+  transform: scale(1.1) rotate(5deg);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #1a3a52;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.9;
+  font-size: 0.97rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== SERVICE FEATURES ===== */
+.service-features {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e8eef5;
+}
+
+.service-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-features li {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.service-features li::before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #00d4ff;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+/* ===== WHY CHOOSE US ===== */
+.why-choose-section {
+  margin-bottom: 6rem;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.why-choose-section h2 {
+  font-size: 2.8rem;
+  color: #1a3a52;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2.5rem;
+  perspective: 1200px;
+}
+
+.why-choose-card {
+  background: linear-gradient(135deg, #0f2740 0%, #1a3a52 100%);
+  padding: 3rem 2rem;
+  border-radius: 14px;
+  color: white;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  box-shadow: 0 5px 20px rgba(26, 58, 82, 0.15);
+  transform: translateZ(0) rotateX(0deg) rotateY(0deg);
+  position: relative;
+}
+
+.why-choose-card:hover {
+  transform: translateY(-8px) rotateX(1.5deg) rotateY(1.5deg) translateZ(8px);
+  box-shadow: 0 18px 36px rgba(26, 58, 82, 0.11),
+              0 6px 12px rgba(0, 212, 255, 0.06);
+}
+
+.why-choose-number {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #00d4ff;
+  margin-bottom: 0.8rem;
+}
+
+.why-choose-card p {
+  font-size: 1.05rem;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+/* ===== METHODOLOGIES ===== */
+.methodologies-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.methodologies-section h2 {
+  font-size: 2.8rem;
+  color: #1a3a52;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+
+.methodologies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+  perspective: 1200px;
+}
+
+.methodology-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 14px;
+  border: 1px solid #e8eef5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transform: translateZ(0) rotateX(0deg) rotateY(0deg);
+  position: relative;
+}
+
+.methodology-card:hover {
+  transform: translateY(-8px) rotateX(1.5deg) rotateY(-1deg) translateZ(8px);
+  box-shadow: 0 18px 36px rgba(26, 58, 82, 0.1),
+              0 6px 12px rgba(0, 212, 255, 0.06);
+  background: linear-gradient(135deg, #f9fbff 0%, #ffffff 100%);
+}
+
+.methodology-icon {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.methodology-card h3 {
+  font-size: 1.3rem;
+  color: #1a3a52;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+.methodology-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .services {
+    padding: 100px 20px;
+  }
+
+  .services h1 {
+    font-size: 2.3rem;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .why-choose-section h2,
+  .methodologies-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .why-choose-grid,
+  .methodologies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 80px 20px;
+  }
+
+  .services h1 {
+    font-size: 1.8rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .service-card {
+    padding: 2.5rem 2rem;
+  }
+
+  .why-choose-grid,
+  .methodologies-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-section h2,
+  .methodologies-section h2 {
+    font-size: 1.8rem;
+  }
+}

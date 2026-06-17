@@ -1,0 +1,99 @@
+.header {
+  background: #ffffff;
+  color: #1a3a52;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 15px rgba(26, 58, 82, 0.08);
+  border-bottom: 2px solid #f0f3f7;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-img {
+  max-height: 90px;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.logo h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #1a3a52;
+  margin: 0;
+  display: none;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  color: #555;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.75rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav button:hover {
+  color: #00d4ff;
+  border-bottom-color: #00d4ff;
+}
+
+.nav button.active {
+  color: #1a3a52;
+  border-bottom-color: #00d4ff;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .nav button {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo-img {
+    height: 40px;
+  }
+}

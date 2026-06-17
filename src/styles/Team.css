@@ -1,0 +1,106 @@
+/* ===== TEAM SECTION ===== */
+.team {
+  padding: 60px 20px;
+  background: #f9fafc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ===== HEADINGS ===== */
+.team h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* ===== GRID ===== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* ===== TEAM CARD ===== */
+.team-member {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== AVATAR ===== */
+.member-avatar {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+/* ===== TEXT ===== */
+.team-member h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.position {
+  font-size: 14px;
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== NO TEAM (EMPTY STATE) ===== */
+.no-team {
+  grid-column: 1 / -1; /* span full width */
+  padding: 50px 0;
+  text-align: center;
+  color: #888;
+}
+
+.no-team h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .team h1 {
+    font-size: 28px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+  }
+
+  .team-member {
+    padding: 20px;
+  }
+
+  .member-avatar {
+    font-size: 40px;
+  }
+}
