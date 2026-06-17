@@ -20,6 +20,7 @@ function Footer({ setCurrentPage }) {
             <ul>
               <li><button onClick={() => handleNavClick('home')}>Home</button></li>
               <li><button onClick={() => handleNavClick('about')}>About</button></li>
+              <li><button onClick={() => handleNavClick('founding')}>Founding</button></li>
               <li><button onClick={() => handleNavClick('services')}>Services</button></li>
               <li><button onClick={() => handleNavClick('contact')}>Contact</button></li>
             </ul>
