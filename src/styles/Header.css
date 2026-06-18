@@ -32,6 +32,7 @@
   height: auto;
   width: auto;
   display: block;
+  position: fixed;
 }
 
 .logo h1 {
