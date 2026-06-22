@@ -36,7 +36,7 @@ function Header({ currentPage, setCurrentPage }) {
                 className={currentPage === 'founding' ? 'active' : ''}
                 onClick={() => handleNavClick('founding')}
               >
-                Founding
+                Our Story
               </button>
             </li>
             <li>

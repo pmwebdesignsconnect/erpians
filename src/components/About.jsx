@@ -3,10 +3,10 @@ import '../styles/About.css';
 
 function About() {
   const stats = [
-    { number: '500+', label: 'Employees' },
-    { number: '150+', label: 'Projects Completed' },
-    { number: '98%', label: 'Client Satisfaction' },
-    { number: '5+', label: 'Years Experience' }
+    { number: '100+', label: 'Employees' },
+    { number: '10+', label: 'Projects Completed' },
+    { number: '10+', label: 'Clients Served' },
+    { number: '4+', label: 'Years Experience' }
   ];
 
   const values = [
@@ -55,12 +55,12 @@ function About() {
     {
       number: '01',
       title: 'Proven Track Record',
-      description: 'Over 150 successful projects completed across industries with consistent delivery of measurable results.'
+      description: 'Over 10+ successful projects completed across industries with consistent delivery of measurable results.'
     },
     {
       number: '02',
       title: 'Expert Team',
-      description: 'Team of 500+ certified SAP consultants with deep industry knowledge and best practice expertise.'
+      description: 'Team of 100+ certified SAP consultants with deep industry knowledge and best practice expertise.'
     },
     {
       number: '03',
@@ -104,7 +104,7 @@ function About() {
               ERPIANS TECHNOLOGY SOLUTIONS PRIVATE LIMITED is a leading SAP consulting and implementation partner dedicated to helping mid-market and enterprise organizations optimize their operations through cutting-edge enterprise resource planning solutions. Founded in 2019, we have rapidly grown to become a trusted partner for organizations seeking digital transformation across multiple continents.
             </p>
             <p>
-              Our journey began with a simple vision: to bridge the gap between complex SAP technology and business success. Today, with over 500 talented professionals and 150+ successful projects completed, we continue to deliver exceptional value to our clients while maintaining the highest standards of integrity and excellence.
+              Our journey began with a simple vision: to bridge the gap between complex SAP technology and business success. Today, with over 500 talented professionals and 10+ successful projects completed, we continue to deliver exceptional value to our clients while maintaining the highest standards of integrity and excellence.
             </p>
 
             <h2>Our Mission</h2>
@@ -181,7 +181,7 @@ function About() {
               </div>
               <div className="journey-content">
                 <h3>Rapid Growth</h3>
-                <p>Successfully delivered 25+ projects, building reputation for quality and customer-centric solutions.</p>
+                <p>Successfully delivered 10+ projects, building reputation for quality and customer-centric solutions.</p>
               </div>
             </div>
             <div className="journey-item">
@@ -199,7 +199,7 @@ function About() {
               </div>
               <div className="journey-content">
                 <h3>Scaling Operations</h3>
-                <p>Expanded team to 300+ consultants, established centers of excellence for specialized services.</p>
+                <p>Expanded team to 100+ consultants, established centers of excellence for specialized services.</p>
               </div>
             </div>
             <div className="journey-item">
@@ -217,7 +217,7 @@ function About() {
               </div>
               <div className="journey-content">
                 <h3>Market Leader</h3>
-                <p>Recognized as trusted partner for 500+ employees, 150+ successful projects, and expanding global presence.</p>
+                <p>Recognized as trusted partner for 100+ employees, 10+ successful projects, and expanding global presence.</p>
               </div>
             </div>
           </div>

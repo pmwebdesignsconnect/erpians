@@ -72,7 +72,7 @@ function Founding() {
     },
     {
       title: 'Market Leadership',
-      description: 'Recognized as a leading SAP consulting partner with 150+ successful projects and 98% client satisfaction.',
+      description: 'Recognized as a leading SAP consulting partner with 10+ successful projects.',
       icon: '⭐'
     }
   ];
@@ -136,7 +136,7 @@ function Founding() {
             <p>
               When ERPIANS was founded on May 10, 2022, we made a commitment to our clients:
               to deliver exceptional SAP consulting and implementation services that drive real business
-              transformation. From our first project to our 150+ current engagements, this promise has
+              transformation. From our first project to our 10+ current engagements, this promise has
               remained unwavering.
             </p>
             <p>
@@ -146,21 +146,18 @@ function Founding() {
             </p>
             <div className="message-stats">
               <div className="message-stat">
-                <h4>500+</h4>
+                <h4>100+</h4>
                 <p>Expert Team Members</p>
               </div>
               <div className="message-stat">
-                <h4>150+</h4>
+                <h4>10+</h4>
                 <p>Projects Completed</p>
               </div>
               <div className="message-stat">
-                <h4>98%</h4>
-                <p>Client Satisfaction</p>
+                <h4>10+</h4>
+                <p>Clients Served</p>
               </div>
-              <div className="message-stat">
-                <h4>5+</h4>
-                <p>Countries Served</p>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -175,7 +172,7 @@ function Founding() {
             </div>
             <div className="vision-card">
               <h3>✓ Expert Team</h3>
-              <p>Grew from founders to 500+ certified SAP consultants with deep industry expertise.</p>
+              <p>Grew from founders to 100+ certified SAP consultants with deep industry expertise.</p>
             </div>
             <div className="vision-card">
               <h3>✓ Industry Recognition</h3>
@@ -183,7 +180,7 @@ function Founding() {
             </div>
             <div className="vision-card">
               <h3>✓ Client Success</h3>
-              <p>Delivered measurable results for 150+ clients with 98% satisfaction rate.</p>
+              <p>Delivered measurable results for 10+ clients.</p>
             </div>
           </div>
         </div>

@@ -29,15 +29,15 @@ function Contact() {
 
     emailjs
       .send(
-        "service_z9mmc3a",
-        "template_s2mae4t",
+        "service_z9mmc3a", // service ID
+        "template_s2mae4t", // template ID
         {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        "OHTTpGmGDISrlobIN"
+        "OHTTpGmGDISrlobIN" // public key
       )
       .then(
         (result) => {

@@ -103,9 +103,9 @@ function Home({ setCurrentPage }) {
   ];
 
   const stats = [
-    { number: '150+', label: 'Projects Completed' },
-    { number: '98%', label: 'Client Satisfaction' },
-    { number: '500+', label: 'Expert Professionals' },
+    { number: '10+', label: 'Projects Completed' },
+    { number: '10+', label: 'Clients Served' },
+    { number: '100+', label: 'Expert Professionals' },
     { number: '50M+', label: 'Records Processed' }
   ];
 

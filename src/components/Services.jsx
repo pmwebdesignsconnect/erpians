@@ -61,18 +61,18 @@ function Services() {
 
   const whyChoose = [
     {
-      number: '150+',
+      number: '10+',
       label: 'Successful Projects',
       icon: '✓'
     },
     {
-      number: '500+',
+      number: '100+',
       label: 'Expert Consultants',
       icon: '👥'
     },
     {
-      number: '98%',
-      label: 'Client Satisfaction',
+      number: '10+ ',
+      label: 'Clients Served',
       icon: '⭐'
     },
     {
